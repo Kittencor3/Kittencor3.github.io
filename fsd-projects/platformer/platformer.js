@@ -30,25 +30,34 @@ $(function () {
      toggleGrid();
 
 
-     createPlatform(850, 400, 200, 10, "hotpink");
-     createPlatform(1100, 500, 2000, 10, "hotpink");
-     createPlatform(800, 590, 200, 10, "hotpink");
-     createPlatform(200, 700, 200, 10, "hotpink");
-     createPlatform(500, 650, 200, 10, "hotpink");
-     createPlatform(600, 350, 200, 10, "hotpink");
-     createPlatform(100, 290, 440, 10, "hotpink");
+     createPlatform(850, 250, 200, 10, "hotpink");
+     createPlatform(1100, 350, 2000, 10, "hotpink");
+     createPlatform(800, 390, 270, 10, "hotpink");
+     createPlatform(250, 550, 200, 10, "hotpink");
+     createPlatform(500, 450, 200, 10, "hotpink");
+     createPlatform(600, 200, 200, 10, "hotpink");
+     createPlatform(100, 150, 440, 10, "hotpink");
+     createPlatform(100, 650, 100, 10, "hotpink");
 
 
 
-     createCollectable("diamond", 200, 170, 0.5, 0.7);
+     createCollectable("diamond", 200, 100, 0.5, 0.7);
+     createCollectable("steve", 550, 400, 0.5, 0.7);
+     createCollectable("kennedi", 950, 350, 0.5, 0.7);
+     createCollectable("max", 1200, 300, 0.5, 0.6);
+     createCollectable("grace", 900, 200, 0.5, 0.7);
+     createCollectable("database", 700, 100, 0.5, 0.7);
+     createCollectable("kennedi", 300, 500, 0.5, 0.7);
 
 
 
 
     
-     createCannon("top", 300, 1000);
-     createCannon("right", 400, 3500);
-     createCannon("right", 610, 3000);
+     createCannon("top", 300, 2000);
+     createCannon("right", 300, 3500);
+     createCannon("right", 510, 3000);
+     createCannon("top", 800, 2500);
+     createCannon("bottom", 600, 3000)
 
 
     
